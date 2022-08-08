@@ -1,6 +1,9 @@
-package com.in28minutes.rest.webservices.restfullwebservices.user;
+package com.in28minutes.rest.webservices.restfullwebservices.controller;
 
 import com.in28minutes.rest.webservices.restfullwebservices.exception.UserNotFoundException;
+import com.in28minutes.rest.webservices.restfullwebservices.model.Post;
+import com.in28minutes.rest.webservices.restfullwebservices.model.User;
+import com.in28minutes.rest.webservices.restfullwebservices.service.UserDaoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -32,6 +35,13 @@ public class UserResource {
        }
       return  user ;
     }
+
+    @GetMapping(path = "/users/{id}/posts/{post_id}")
+    public Post retrievePost(@PathVariable int id,@PathVariable int post_id ){
+        return service.findOnePost(id,post_id);
+
+    }
+
 
     // CREATED
     // input - details of user
