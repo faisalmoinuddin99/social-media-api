@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfullwebservices;
+package com.in28minutes.rest.webservices.restfullwebservices.helloworld;
 
 import org.springframework.context.annotation.Bean;
 
