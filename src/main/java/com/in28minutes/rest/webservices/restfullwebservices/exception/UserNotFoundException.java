@@ -1,4 +1,4 @@
-package com.in28minutes.rest.webservices.restfullwebservices.user;
+package com.in28minutes.rest.webservices.restfullwebservices.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
