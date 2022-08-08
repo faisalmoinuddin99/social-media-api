@@ -9,6 +9,8 @@ public class User {
 
     private Date birthDate ;
 
+
+
     public User(int id, String name, Date birthDate) {
         this.id = id;
         this.name = name;
