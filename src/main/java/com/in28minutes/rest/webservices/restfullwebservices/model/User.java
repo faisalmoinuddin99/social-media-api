@@ -3,8 +3,7 @@ package com.in28minutes.rest.webservices.restfullwebservices.model;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;
 import java.util.Date;
-import java.util.List;
-import java.util.Objects;
+
 
 public class User {
     private int id ;

@@ -37,6 +37,13 @@
 			<scope>runtime</scope>
 			<optional>true</optional>
 		</dependency>
+
+<!--		HATEOAS - Hypermedia As the Engine Of Application State-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-hateoas</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
