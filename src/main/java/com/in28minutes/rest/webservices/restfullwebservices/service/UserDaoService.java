@@ -11,8 +11,8 @@ import java.util.List;
 
 @Component
 public class UserDaoService {
-    private static List<User> users = new ArrayList<>() ;
-    private static List<Post> posts = new ArrayList<>() ;
+    private static final List<User> users = new ArrayList<>() ;
+    private static final List<Post> posts = new ArrayList<>() ;
 
     static {
         posts.add(new Post(1,"Goa","Trip to Goa", new Date())) ;
