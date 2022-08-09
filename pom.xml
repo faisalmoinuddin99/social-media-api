@@ -44,6 +44,7 @@
 			<artifactId>spring-boot-starter-hateoas</artifactId>
 		</dependency>
 
+<!--		Internationalization I18n-->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
